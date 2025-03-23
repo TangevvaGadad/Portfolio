@@ -299,6 +299,31 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/gallery/c1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/c2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/c3.jpeg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/c5.jpeg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/c5.gif",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
