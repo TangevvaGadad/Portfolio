@@ -3,6 +3,7 @@ import React from "react";
 import { Heading, Flex, Text, Button, Avatar, RevealFx, Column } from "@/once-ui/components";
 import { baseURL } from "@/app/resources";
 import { home, about, person } from "@/app/resources/content";
+import {Projects} from "../components/work/Projects";
 
 export default function Home() {
   return (
@@ -62,9 +63,11 @@ export default function Home() {
         </Column>
       </Column>
 
-      {/* Optional future sections */}
-      {/* <Projects range={[1, 1]} /> */}
-      {/* {newsletter.display && <Mailchimp newsletter={newsletter} />} */}
+      {/* ✅ Projects section now sits outside the narrow column */}
+      <RevealFx translateY="20" delay={0.8}>
+        <Projects range={[1, 2]} />
+      </RevealFx>
     </Column>
   );
 }
+

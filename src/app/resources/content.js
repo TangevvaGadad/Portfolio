@@ -239,11 +239,6 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/i2.jpeg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
       src: "/images/gallery/i4.jpeg",
       alt: "image",
       orientation: "horizontal",
@@ -253,11 +248,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/i7.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+
     {
       src: "/images/gallery/i6.jpg",
       alt: "image",
@@ -319,9 +310,14 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/c5.gif",
+      src: "/images/gallery/i2.jpeg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/i7.jpg",
+      alt: "image",
+      orientation: "vertical",
     },
   ],
 };
