@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* ✅ Projects section now sits outside the narrow column */}
       <RevealFx translateY="20" delay={0.8}>
-        <Projects range={[1, 2]} />
+        <Projects range={[2, 3]} />
       </RevealFx>
     </Column>
   );
