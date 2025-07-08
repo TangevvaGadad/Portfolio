@@ -147,6 +147,16 @@ I enjoy solving problems, bringing creative ideas to life, and continuously expl
       },
     ],
   },
+  internships: {
+    display: true, // set to false to hide this section
+    title: "Internships",
+    companies: [
+      {
+        name: "HacFy",
+        description: <>During my internship at Hacfy, I engineered scalable and performant web applications using Next.js, implementing server-side rendering, API integrations, and optimized routing to deliver seamless user experiences.</>,
+      },
+    ],
+  },
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
