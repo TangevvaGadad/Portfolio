@@ -63,7 +63,7 @@ export default function Home() {
         </Column>
       </Column>
 
-      <h1>sample projects</h1>
+      <h1>Demo projects</h1>
       {/* ✅ Projects section now sits outside the narrow column */}
       <RevealFx translateY="20" delay={0.8}>
         <Projects range={[2, 3]} />
