@@ -1,9 +1,23 @@
+"use client";
 import React from "react";
-
-import { Heading, Flex, Text, Button, Avatar, RevealFx, Column } from "@/once-ui/components";
+import {
+  Flex,
+  Text,
+  Button,
+  Avatar,
+  RevealFx,
+  Column
+} from "@/once-ui/components";
 import { baseURL } from "@/app/resources";
 import { home, about, person } from "@/app/resources/content";
-import {Projects} from "../components/work/Projects";
+import { Projects } from "../components/work/Projects";
+
+// 🟢 Import TextRevealCard components
+import {
+  TextRevealCard,
+  TextRevealCardTitle,
+  TextRevealCardDescription,
+} from "@/components/ui/text-reveal-card";
 
 export default function Home() {
   return (
@@ -33,19 +47,36 @@ export default function Home() {
 
       <Column fillWidth paddingY="l" gap="m" horizontal="center">
         <Column maxWidth="s" horizontal="center">
-          <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="m">
-            <Heading wrap="balance" variant="display-strong-l" align="center">
+          {/* 🔥 TextRevealCard replacing RevealFx + Heading */}
+                  <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="m">
+            <Text
+              wrap="balance"
+              align="center"
+              variant="display-strong-l"
+            >
               {home.headline}
-            </Heading>
+            </Text>
           </RevealFx>
+
+          {/* Avatar */}
+          <RevealFx translateY="12" delay={0.4} horizontal="center" paddingBottom="l">
+            <Avatar src={person.avatar} size="xl" className="w-80 h-80"/>
+          </RevealFx>
+          <div className="flex items-center justify-center h-[20rem] w-full">
+            <TextRevealCard
+  text=""
+  revealText=""
+/>
+          </div>
+
+          {/* Subline */}
           <RevealFx translateY="8" delay={0.2} fillWidth horizontal="center" paddingBottom="m">
             <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl" align="center">
               {home.subline}
             </Text>
           </RevealFx>
-          <RevealFx translateY="12" delay={0.4} horizontal="center" paddingBottom="l">
-            <Avatar src={person.avatar} size="xl" />
-          </RevealFx>
+
+          {/* About Button */}
           <RevealFx translateY="16" delay={0.6} horizontal="center">
             <Button
               id="about"
@@ -62,13 +93,6 @@ export default function Home() {
           </RevealFx>
         </Column>
       </Column>
-
-      <h1>Demo projects</h1>
-      {/* ✅ Projects section now sits outside the narrow column */}
-      <RevealFx translateY="20" delay={0.8}>
-        <Projects range={[2, 3]} />
-      </RevealFx>
     </Column>
   );
 }
-

@@ -51,17 +51,18 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>FullStack developer</>,
+  headline: "FullStack developer",
   subline: (
     <>
-      I'm Tangevva, Currently learning BE in Computer Science.
+     A passionate Software Engineer and Web Developer with a love for building impactful, scalable, and efficient web applications. I specialize in JavaScript, React, Node.js, and modern full-stack solutions. With a strong foundation in problem-solving, API integrations, and database management, I'm driven by curiosity and continuous learning.
+Let's build something meaningful together.
     </>
   ),
 };
 
 const about = {
   label: "About",
-  title: "About me",
+  title: "See More About me",
   description: `Meet ${person.name}, ${person.role}`,
   tableOfContent: {
     display: true,
