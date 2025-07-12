@@ -3,6 +3,11 @@ import { Column } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
 import { baseURL } from "@/app/resources";
 import { person, work } from "@/app/resources/content";
+import {
+  TextRevealCard,
+  TextRevealCardTitle,
+  TextRevealCardDescription,
+} from "@/components/ui/text-reveal-card";
 
 export async function generateMetadata() {
   const title = work.title;
@@ -64,6 +69,12 @@ export default function Work() {
         }}
       />
       <Projects />
+          <div className="flex items-center justify-center h-[20rem] w-full">
+            <TextRevealCard
+  text=""
+  revealText=""
+/>
+          </div>
     </Column>
   );
 }
