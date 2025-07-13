@@ -63,5 +63,6 @@ export default function Gallery() {
       />
       <MasonryGrid />
     </Flex>
+
   );
 }
