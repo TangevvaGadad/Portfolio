@@ -240,7 +240,7 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/i1.jpg",
+      src: "/images/gallery/c1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -301,7 +301,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/c1.jpg",
+      src: "/images/gallery/i1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
