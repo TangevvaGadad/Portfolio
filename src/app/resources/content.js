@@ -54,8 +54,7 @@ const home = {
   headline: "Tangevva R Gadad",
   subline: (
     <>
-     A passionate Software Engineer and Web Developer with a love for building impactful, scalable, and efficient web applications. I specialize in JavaScript, React, Node.js, and modern full-stack solutions. With a strong foundation in problem-solving, API integrations, and database management, I'm driven by curiosity and continuous learning.
-Let's build something meaningful together.
+     A passionate Software Engineer and MERN Stack Developer crafting fast, scalable, and user-friendly web applications. I specialize in JavaScript, React, Node.js, and Next.js, blending creativity with clean code. With a strong grip on problem-solving, APIs, and databases, I'm always eager to learn and build impactful digital experiences. Let’s create something amazing together.
     </>
   ),
 };
