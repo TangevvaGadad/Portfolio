@@ -98,7 +98,7 @@ const SmartImage: React.FC<SmartImageProps> = ({
       : "";
   };
 
-  const isVideo = src?.endsWith(".mp4");
+const isVideo = typeof src === "string" && src.endsWith(".mp4");
   const isYouTube = isYouTubeVideo(src);
 
   return (

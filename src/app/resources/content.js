@@ -212,6 +212,19 @@ I enjoy solving problems, bringing creative ideas to life, and continuously expl
           // },
         ],
       },
+      {
+        title: "Databases",
+        description: <>PostgreSQL,NeonDB,Prisma,mySQL,MongoDB</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
     ],
   },
 };
