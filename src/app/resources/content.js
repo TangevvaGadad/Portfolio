@@ -244,17 +244,17 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/i3.jpeg",
+      src: "/images/gallery/c2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/i4.jpeg",
+      src: "/images/gallery/c3.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/i5.jpg",
+      src: "/images/gallery/c5.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -289,11 +289,11 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/i13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // {
+    //   src: "/images/gallery/i13.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
     {
       src: "/images/gallery/i14.jpg",
       alt: "image",
@@ -305,17 +305,22 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/c2.jpg",
+      src: "/images/gallery/i3.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/c3.jpeg",
+      src: "/images/gallery/i4.jpeg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/c5.jpeg",
+      src: "/images/gallery/i15.jpeg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/i5.jpg",
       alt: "image",
       orientation: "horizontal",
     },
