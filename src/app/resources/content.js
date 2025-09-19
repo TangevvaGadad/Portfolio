@@ -70,9 +70,10 @@ const about = {
   avatar: {
     display: true,
   },
-  calendar: {
+  resume: {
     display: true,
-    link: "https://cal.com",
+    link: "/Resume_ATS.pdf",
+    text: "Download Resume",
   },
   intro: {
     display: true,
